@@ -2,8 +2,8 @@
 
 ## **Aplicación desarrollada para la busqueda de canciones** ##
 
-### Desarrollaremos una aplicación destinada a la busqueda de canciones,títulos etc
-en función de los parametros de busqueda es decir: ###
+### Desarrollaremos una aplicación destinada a la busqueda de canciones,títulos etc, en función de los parámetros de busqueda es decir: ###
+
 
 * Podremos buscar la canción mas popular del dia
 * Podremos buscar la canción mas popular del mes
