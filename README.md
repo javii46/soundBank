@@ -7,6 +7,6 @@ en función de los parametros de busqueda es decir:
 
 * Podremos buscar la canción mas popular del dia
 * Podremos buscar la canción mas popular del mes
-* buscar información de una determinada canción etc.. ##
+* buscar información de una determinada canción etc.. ###
 
 #### En esta aplicación utilizaremos la siguiente api [ApiGrooveShark](http://developers.grooveshark.com/docs/public_api/v3/) ####
