@@ -9,11 +9,9 @@
 ### Desarrollaremos una aplicación destinada a la busqueda de canciones,títulos etc, en función de los parámetros de busqueda es decir: ###
 
 
-1. Podremos buscar canciones por popularidad
-  * Podremos buscar la canción mas popular del dia
-  * Podremos buscar la canción mas popular del mes
-2. Buscar información de una determinada canción etc...
+1. Podremos buscar discos,canciones etc sobre nuestros artistas favoritos,
+   como tambien escuchar su música.
 
-#### En esta aplicación utilizaremos la siguiente api [ApiGrooveShark](http://developers.grooveshark.com/docs/public_api/v3/) ####
+#### En esta aplicación utilizaremos la siguiente api [Dezzer](http://developers.deezer.com/api) ####
 
 ---
