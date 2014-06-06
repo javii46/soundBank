@@ -23,8 +23,8 @@ def nombre():
     global artist
     artist = request.forms.get("artista")
     r = requests.get('http://api.deezer.com/search/album', params={'q':'%s'% artist})
-    resultado=json.loads(r.text)
-    return template('results', data=resultado)
+    datos=json.loads(r.text)
+    return template('results', data=datos)
 
 debug='TRUE'
 run(host='localhost', port=8080)
