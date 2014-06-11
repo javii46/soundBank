@@ -24,9 +24,11 @@ def nombre():
     artist = request.forms.get("artista")
     r = requests.get('http://api.deezer.com/search/album', params={'q':'%s'% artist})
     datos=json.loads(r.text)
-    return template('results', data=datos)
+    return template('results', data=datos,busqueda=artist)
 
 debug='TRUE'
 run(host='localhost', port=8080)
+
+
 
 
