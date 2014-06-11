@@ -1,6 +1,6 @@
 body {
 font-family: helvetica,sans-serif;
-margin: 0 auto;
+margin: 0px auto 30px auto;
 width: 900px;
 background-image:url('/static/copy.jpg')
 }
@@ -32,18 +32,6 @@ font-style:bold;
 text-transform:capitalize;
 color:#2E2E2E;
 margin:-35px 0;
-}
-
-#busqueda {
-text-align: center;
-color: #DF7401;
-font-size:35px;
-font-family:Indie Flower;
-text-decoration:none;
-font-style:bold;
-text-transform:capitalize;
-color:#FF8000;
-margin:20px;
 }
 
 .cajas {
@@ -78,7 +66,7 @@ display:block;
 }
 
 .comience{
-margin:10px 0;
+margin:2px 0px 0px;
 font-family:Indie Flower;
 color:#DF7401;
 font-size:24px;
@@ -92,12 +80,10 @@ td{
 border-color:#ff0;
 }
 
-.letra{
-font-size:15px;
-font-family:Coming Soon;
-color:#0B173B
+#letras{
+float:left
+width:400px
 }
-
 
 #encabezadoresults h1{
 text-align:center;
@@ -109,9 +95,19 @@ color:#0B4C5F;
 }
 
 #busqueda{
+float:right;
+font-family: Coming Soon;
+color:#8A0808;
+font-size:24px;
+}
+
+#busqueda1{
 text-align:center;
 font-family: Coming Soon;
 color:#8A0808;
 font-size:24px;
+}
+
+
 
     
