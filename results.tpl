@@ -10,7 +10,7 @@
 			<div id="encabezadoresults">
 			<a href="/"><h1>Sound Bank</h1></a>
 			</div>
-			<div id="busqueda">
+			<div id="busqueda1">
 			<p> Resultados de la búsqueda: {{busqueda}} </p>
 			</div>
 			<div id="contenedor">

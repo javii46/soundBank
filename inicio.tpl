@@ -16,11 +16,17 @@
 
 		<div id="busqueda">
 			<form action="/resultado" method="POST">
-			<p class="comience">Comience su búsqueda</p><input name="artista" type="text" />
+			<h2 class="comience">Busqueda de artistas</h2><input name="artista" type="text" />
 			<input value="Buscar" type="submit" />
 			</form>
 		</div>
-		  
+		<div id="letras">
+			<form action="/letra" method="POST">
+			<h2 class="comience">Busque las letras de sus canciones favoritas</h2>
+			<p class="comience">Introduzca nombre del artista</p><input name="artista2" type="text" />
+			<p class="comience">Introduzca nombre de la canción</p><input name="cancion" type="text" />
+			<input value="Buscar" type="submit" />
+			</form>
 		</body>
 </html>
 
