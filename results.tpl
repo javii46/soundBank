@@ -9,7 +9,10 @@
 	<body>
 			<div id="encabezadoresults">
 			<a href="/"><h1>Sound Bank</h1></a>
-			<div/>
+			</div>
+			<div id="busqueda">
+			<p> Resultados de la búsqueda: {{busqueda}} </p>
+			</div>
 			<div id="contenedor">
 				%for i in data['data']:
 					<div class="cajas">
@@ -18,7 +21,7 @@
 					<img src="{{ i['cover'] }}" />
 				</tr>
 				<td class="letra">
-					<p>{{ i['artist']['name'] }}</p>
+					<p>{{ i['artist']['name'] }} </p>
 					<p>{{ i['title'] }}</p>
 					<a href="{{ i['link'] }}"> ¿Desea escuchar este disco?, pulse aquí. </a>
 				</td>
