@@ -12,6 +12,6 @@
 1. Podremos buscar discos,canciones etc sobre nuestros artistas favoritos,
    como tambien escuchar su música.
 
-#### En esta aplicación utilizaremos la siguiente api [Dezzer](http://developers.deezer.com/api) ####
-
+#### En esta aplicación utilizaremos la siguiente api Web [Dezzer](http://developers.deezer.com/api) ####
+#### En esta aplicación utilizaremos la siguiente api Web [lyrics](http://api.wikia.com/wiki/LyricWiki_API) ####
 ---
