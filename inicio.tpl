@@ -8,25 +8,13 @@
 	</head>
 	<body>
 		<div id="encabezado">
-			<h1> Sound Bank </h1>
-			<h2>Encuentre toda su musica con tan solo un clik</h2>
+			<h1>Sound Bank</h1>
+			<img src="./static/dj.png" class="mesamezcla">
+			<a href="/artistas"><h2>Busque la discografia de sus artistas favoritos</h2></a>
+			<br></br>
+			<br></br>
+			<a href="/letras"><h2>Busque las letras de sus canciones favoritas</h2></a>
+			<br></br>
 		</div>
-			<br>
-			<img src="./static/cinta.png" class="casette">
-
-		<div id="busqueda">
-			<form action="/resultado" method="POST">
-			<h2 class="comience">Busqueda de artistas</h2><input name="artista" type="text" />
-			<input value="Buscar" type="submit" />
-			</form>
-		</div>
-		<div id="letras">
-			<form action="/letra" method="POST">
-			<h2 class="comience">Busque las letras de sus canciones favoritas</h2>
-			<p class="comience">Introduzca nombre del artista</p><input name="artista2" type="text" />
-			<p class="comience">Introduzca nombre de la canción</p><input name="cancion" type="text" />
-			<input value="Buscar" type="submit" />
-			</form>
-		</body>
+	</body>
 </html>
-

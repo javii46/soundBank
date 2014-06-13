@@ -19,6 +19,14 @@ def error404(error):
 def search():
     return template('inicio')
 
+@route('/artistas')
+def search():
+    return template('buscarartista')
+
+@route('/letras')
+def search():
+    return template('buscarletras')
+
 @post('/resultado')
 def nombre():
     global artist
